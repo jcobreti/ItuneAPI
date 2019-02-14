@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorLila</item><!-- Barra de título -->
+        <item name="colorPrimaryDark">@color/colorLilaOscuro</item><!-- Barra de la hora y batería etc -->
+        <item name="colorAccent">@color/colorLila</item><!-- Todavía no sé qué hace -->
+    </style>
+
+    <style name="titulo" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorLila</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:fontFamily">@font/amatic</item>
+    </style>
+
+    <style name="texto" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorLilaClaro</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/varelaround</item>
+    </style>
+
+    <style name="fondo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorGrisPlomo</item>
+    </style>
+    <style name="imagen">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@color/colorNegro</item>
+    </style>
+
+    <style name="borde">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@color/colorLilaClaro</item>
+    </style>
+
+    <style name="cenefa">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:background">@drawable/cenefa</item>
+    </style>
+
+</resources>
